@@ -1,0 +1,17 @@
+[1.155s] Invoking command in '/home/flynn/webots_ros2_ws/build/turtlebot3_camera_service': CMAKE_PREFIX_PATH=/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces LD_LIBRARY_PATH=/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces/lib/pkgconfig PYTHONPATH=/home/flynn/webots_ros2_ws/build/turtlebot3_camera_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service/lib/python3.10/site-packages:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/flynn/webots_ros2_ws/build/turtlebot3_camera_service/build --no-deps symlink_data
+[1.481s] running develop
+[1.685s] running egg_info
+[1.685s] writing turtlebot3_camera_service.egg-info/PKG-INFO
+[1.685s] writing dependency_links to turtlebot3_camera_service.egg-info/dependency_links.txt
+[1.686s] writing entry points to turtlebot3_camera_service.egg-info/entry_points.txt
+[1.686s] writing requirements to turtlebot3_camera_service.egg-info/requires.txt
+[1.686s] writing top-level names to turtlebot3_camera_service.egg-info/top_level.txt
+[1.688s] reading manifest file 'turtlebot3_camera_service.egg-info/SOURCES.txt'
+[1.689s] writing manifest file 'turtlebot3_camera_service.egg-info/SOURCES.txt'
+[1.690s] running build_ext
+[1.691s] Creating /home/flynn/webots_ros2_ws/install/turtlebot3_camera_service/lib/python3.10/site-packages/turtlebot3-camera-service.egg-link (link to .)
+[1.692s] Installing image_service_server script to /home/flynn/webots_ros2_ws/install/turtlebot3_camera_service/lib/turtlebot3_camera_service
+[1.692s] 
+[1.692s] Installed /home/flynn/webots_ros2_ws/build/turtlebot3_camera_service
+[1.692s] running symlink_data
+[1.728s] Invoked command in '/home/flynn/webots_ros2_ws/build/turtlebot3_camera_service' returned '0': CMAKE_PREFIX_PATH=/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces LD_LIBRARY_PATH=/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces/lib/pkgconfig PYTHONPATH=/home/flynn/webots_ros2_ws/build/turtlebot3_camera_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service/lib/python3.10/site-packages:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/flynn/webots_ros2_ws/build/turtlebot3_camera_service/build --no-deps symlink_data

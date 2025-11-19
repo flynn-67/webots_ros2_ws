@@ -1,0 +1,387 @@
+[0.011s] Invoking command in '/home/flynn/webots_ros2_ws/build/webots_ros2_driver': CMAKE_PREFIX_PATH=/home/flynn/webots_ros2_ws/install/webots_ros2_msgs:/home/flynn/webots_ros2_ws/install/webots_ros2_control:/home/flynn/webots_ros2_ws/install/webots_ros2_driver:/home/flynn/webots_ros2_ws/install/webots_ros2:/home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot:/home/flynn/webots_ros2_ws/install/webots_ros2_tests:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service:/opt/ros/humble:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces LD_LIBRARY_PATH=/home/flynn/webots_ros2_ws/install/webots_ros2_msgs/lib:/home/flynn/webots_ros2_ws/install/webots_ros2_control/lib:/home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/flynn/webots_ros2_ws/src/webots_ros2/webots_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/flynn/webots_ros2_ws/install/webots_ros2_driver
+[0.082s] -- The C compiler identification is GNU 11.4.0
+[0.150s] -- The CXX compiler identification is GNU 11.4.0
+[0.159s] -- Detecting C compiler ABI info
+[0.242s] -- Detecting C compiler ABI info - done
+[0.251s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.252s] -- Detecting C compile features
+[0.252s] -- Detecting C compile features - done
+[0.256s] -- Detecting CXX compiler ABI info
+[0.357s] -- Detecting CXX compiler ABI info - done
+[0.367s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.368s] -- Detecting CXX compile features
+[0.368s] -- Detecting CXX compile features - done
+[0.371s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.561s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.635s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.666s] -- Found rosgraph_msgs: 1.2.2 (/opt/ros/humble/share/rosgraph_msgs/cmake)
+[0.706s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.711s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.721s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.735s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.754s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.783s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.824s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.827s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.932s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.968s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.017s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.026s] -- Looking for pthread.h
+[1.112s] -- Looking for pthread.h - found
+[1.112s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.202s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.204s] -- Found Threads: TRUE  
+[1.253s] -- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+[1.282s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.315s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.330s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.332s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.332s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.436s] -- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+[1.453s] -- Found webots_ros2_msgs: 2025.0.1 (/home/flynn/webots_ros2_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake)
+[1.474s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.686s] -- Found Python: /usr/include/python3.10 (found suitable exact version "3.10.12") found components: Development Development.Module Development.Embed 
+[2.034s] -- Configuring done
+[2.062s] -- Generating done
+[2.072s] -- Build files have been written to: /home/flynn/webots_ros2_ws/build/webots_ros2_driver
+[2.084s] Invoked command in '/home/flynn/webots_ros2_ws/build/webots_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/home/flynn/webots_ros2_ws/install/webots_ros2_msgs:/home/flynn/webots_ros2_ws/install/webots_ros2_control:/home/flynn/webots_ros2_ws/install/webots_ros2_driver:/home/flynn/webots_ros2_ws/install/webots_ros2:/home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot:/home/flynn/webots_ros2_ws/install/webots_ros2_tests:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service:/opt/ros/humble:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces LD_LIBRARY_PATH=/home/flynn/webots_ros2_ws/install/webots_ros2_msgs/lib:/home/flynn/webots_ros2_ws/install/webots_ros2_control/lib:/home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/flynn/webots_ros2_ws/src/webots_ros2/webots_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/flynn/webots_ros2_ws/install/webots_ros2_driver
+[2.086s] Invoking command in '/home/flynn/webots_ros2_ws/build/webots_ros2_driver': CMAKE_PREFIX_PATH=/home/flynn/webots_ros2_ws/install/webots_ros2_msgs:/home/flynn/webots_ros2_ws/install/webots_ros2_control:/home/flynn/webots_ros2_ws/install/webots_ros2_driver:/home/flynn/webots_ros2_ws/install/webots_ros2:/home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot:/home/flynn/webots_ros2_ws/install/webots_ros2_tests:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service:/opt/ros/humble:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces LD_LIBRARY_PATH=/home/flynn/webots_ros2_ws/install/webots_ros2_msgs/lib:/home/flynn/webots_ros2_ws/install/webots_ros2_control/lib:/home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/flynn/webots_ros2_ws/build/webots_ros2_driver -- -j24 -l24
+[2.158s] [  0%] Built target ament_cmake_python_symlink_controller
+[2.160s] [  0%] Built target ament_cmake_python_symlink_webots_ros2_driver
+[2.161s] [  0%] Built target ament_cmake_python_symlink_vehicle
+[2.481s] running egg_info
+[2.481s] running egg_info
+[2.482s] creating controller.egg-info
+[2.482s] writing controller.egg-info/PKG-INFO
+[2.482s] creating webots_ros2_driver.egg-info
+[2.482s] writing dependency_links to controller.egg-info/dependency_links.txt
+[2.482s] writing top-level names to controller.egg-info/top_level.txt
+[2.483s] writing webots_ros2_driver.egg-info/PKG-INFO
+[2.483s] writing dependency_links to webots_ros2_driver.egg-info/dependency_links.txt
+[2.483s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[2.483s] writing top-level names to webots_ros2_driver.egg-info/top_level.txt
+[2.483s] writing manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'
+[2.485s] running egg_info
+[2.485s] reading manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'
+[2.485s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[2.486s] creating vehicle.egg-info
+[2.486s] writing vehicle.egg-info/PKG-INFO
+[2.486s] writing manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'
+[2.486s] writing dependency_links to vehicle.egg-info/dependency_links.txt
+[2.486s] writing top-level names to vehicle.egg-info/top_level.txt
+[2.486s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[2.487s] writing manifest file 'vehicle.egg-info/SOURCES.txt'
+[2.489s] reading manifest file 'vehicle.egg-info/SOURCES.txt'
+[2.490s] writing manifest file 'vehicle.egg-info/SOURCES.txt'
+[2.525s] [  0%] Built target ament_cmake_python_build_webots_ros2_driver_egg
+[2.525s] [  0%] Built target ament_cmake_python_build_controller_egg
+[2.528s] [  0%] Built target ament_cmake_python_build_vehicle_egg
+[2.834s] [  0%] Built target compile-lib-controller
+[2.936s] [  0%] Built target compile-generic-window
+[3.602s] [  0%] Built target compile-lib-vehicle
+[3.634s] [  3%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_imu.dir/src/plugins/dynamic/Ros2IMU.cpp.o[0m
+[3.635s] [ 11%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_rgbd.dir/src/plugins/dynamic/Ros2RGBD.cpp.o[0m
+[3.635s] [ 14%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_imu.dir/src/plugins/Ros2SensorPlugin.cpp.o[0m
+[3.635s] [ 11%] [32mBuilding CXX object CMakeFiles/driver.dir/src/WebotsNode.cpp.o[0m
+[3.635s] [ 18%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_imu.dir/src/utils/Utils.cpp.o[0m
+[3.635s] [ 22%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_rgbd.dir/src/utils/Utils.cpp.o[0m
+[3.636s] [ 29%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/Ros2SensorPlugin.cpp.o[0m
+[3.636s] [ 29%] [32mBuilding CXX object CMakeFiles/driver.dir/src/PythonPlugin.cpp.o[0m
+[3.636s] [ 33%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2LED.cpp.o[0m
+[3.636s] [ 37%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_rgbd.dir/src/plugins/Ros2SensorPlugin.cpp.o[0m
+[3.636s] [ 40%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Lidar.cpp.o[0m
+[3.637s] [ 44%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o[0m
+[3.637s] [ 48%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Pen.cpp.o[0m
+[3.637s] [ 51%] [32mBuilding CXX object CMakeFiles/driver.dir/src/Driver.cpp.o[0m
+[3.638s] [ 55%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2GPS.cpp.o[0m
+[3.639s] [ 59%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2RangeFinder.cpp.o[0m
+[3.639s] [ 62%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2DistanceSensor.cpp.o[0m
+[3.640s] [ 66%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2LightSensor.cpp.o[0m
+[3.640s] [ 70%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Emitter.cpp.o[0m
+[3.641s] [ 74%] [32mBuilding CXX object CMakeFiles/driver.dir/src/utils/Math.cpp.o[0m
+[3.641s] [ 77%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Receiver.cpp.o[0m
+[3.642s] [ 81%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Compass.cpp.o[0m
+[3.642s] [ 85%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2VacuumGripper.cpp.o[0m
+[3.642s] [ 88%] [32mBuilding CXX object CMakeFiles/driver.dir/src/utils/Utils.cpp.o[0m
+[16.589s] [ 92%] [32m[1mLinking CXX shared library libwebots_ros2_driver_imu.so[0m
+[17.121s] [ 92%] Built target webots_ros2_driver_imu
+[18.171s] [ 96%] [32m[1mLinking CXX shared library libwebots_ros2_driver_rgbd.so[0m
+[18.611s] [ 96%] Built target webots_ros2_driver_rgbd
+[25.562s] [100%] [32m[1mLinking CXX executable driver[0m
+[27.985s] [100%] Built target driver
+[28.001s] Invoked command in '/home/flynn/webots_ros2_ws/build/webots_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/home/flynn/webots_ros2_ws/install/webots_ros2_msgs:/home/flynn/webots_ros2_ws/install/webots_ros2_control:/home/flynn/webots_ros2_ws/install/webots_ros2_driver:/home/flynn/webots_ros2_ws/install/webots_ros2:/home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot:/home/flynn/webots_ros2_ws/install/webots_ros2_tests:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service:/opt/ros/humble:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces LD_LIBRARY_PATH=/home/flynn/webots_ros2_ws/install/webots_ros2_msgs/lib:/home/flynn/webots_ros2_ws/install/webots_ros2_control/lib:/home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/flynn/webots_ros2_ws/build/webots_ros2_driver -- -j24 -l24
+[28.003s] Invoking command in '/home/flynn/webots_ros2_ws/build/webots_ros2_driver': CMAKE_PREFIX_PATH=/home/flynn/webots_ros2_ws/install/webots_ros2_msgs:/home/flynn/webots_ros2_ws/install/webots_ros2_control:/home/flynn/webots_ros2_ws/install/webots_ros2_driver:/home/flynn/webots_ros2_ws/install/webots_ros2:/home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot:/home/flynn/webots_ros2_ws/install/webots_ros2_tests:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service:/opt/ros/humble:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces LD_LIBRARY_PATH=/home/flynn/webots_ros2_ws/install/webots_ros2_msgs/lib:/home/flynn/webots_ros2_ws/install/webots_ros2_control/lib:/home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/flynn/webots_ros2_ws/build/webots_ros2_driver
+[28.012s] -- Install configuration: ""
+[28.013s] -- Execute custom install script
+[28.013s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/pythonpath.sh
+[28.023s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/pythonpath.dsv
+[28.033s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller-2025.0.1-py3.10.egg-info/PKG-INFO
+[28.044s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller-2025.0.1-py3.10.egg-info/SOURCES.txt
+[28.054s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller-2025.0.1-py3.10.egg-info/dependency_links.txt
+[28.063s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller-2025.0.1-py3.10.egg-info/top_level.txt
+[28.073s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/__init__.py
+[28.081s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/accelerometer.py
+[28.091s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/altimeter.py
+[28.102s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/ansi_codes.py
+[28.112s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/brake.py
+[28.122s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/camera.py
+[28.131s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/compass.py
+[28.142s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/connector.py
+[28.152s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/constants.py
+[28.161s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/device.py
+[28.171s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/display.py
+[28.180s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/distance_sensor.py
+[28.192s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/emitter.py
+[28.202s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/field.py
+[28.213s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/gps.py
+[28.224s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/gyro.py
+[28.234s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/inertial_unit.py
+[28.244s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/joystick.py
+[28.253s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/keyboard.py
+[28.264s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/led.py
+[28.274s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/lidar.py
+[28.285s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/lidar_point.py
+[28.297s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/light_sensor.py
+[28.308s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/motion.py
+[28.319s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/motor.py
+[28.330s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/mouse.py
+[28.341s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/node.py
+[28.351s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/pen.py
+[28.362s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/position_sensor.py
+[28.372s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/proto.py
+[28.382s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/radar.py
+[28.394s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/radar_target.py
+[28.404s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/range_finder.py
+[28.413s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/receiver.py
+[28.423s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/robot.py
+[28.434s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/sensor.py
+[28.444s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/skin.py
+[28.455s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/speaker.py
+[28.465s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/supervisor.py
+[28.475s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/touch_sensor.py
+[28.485s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/vacuum_gripper.py
+[28.496s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/wb.py
+[28.509s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle-2025.0.1-py3.10.egg-info/PKG-INFO
+[28.518s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle-2025.0.1-py3.10.egg-info/SOURCES.txt
+[28.527s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle-2025.0.1-py3.10.egg-info/dependency_links.txt
+[28.538s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle-2025.0.1-py3.10.egg-info/top_level.txt
+[28.548s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle/__init__.py
+[28.557s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle/car.py
+[28.567s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle/driver.py
+[28.576s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver-2025.0.1-py3.10.egg-info/PKG-INFO
+[28.587s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver-2025.0.1-py3.10.egg-info/SOURCES.txt
+[28.599s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver-2025.0.1-py3.10.egg-info/dependency_links.txt
+[28.609s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver-2025.0.1-py3.10.egg-info/top_level.txt
+[28.620s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/__init__.py
+[28.630s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/ros2_supervisor.py
+[28.640s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/urdf_spawner.py
+[28.650s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/utils.py
+[28.660s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/wait_for_controller_connection.py
+[28.670s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/webots_controller.py
+[28.680s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/webots_launcher.py
+[28.692s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/PluginInterface.hpp
+[28.702s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/PythonPlugin.hpp
+[28.713s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/WebotsNode.hpp
+[28.722s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/Ros2SensorPlugin.hpp
+[28.732s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/dynamic/Ros2IMU.hpp
+[28.741s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/dynamic/Ros2RGBD.hpp
+[28.751s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Camera.hpp
+[28.759s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Compass.hpp
+[28.768s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2DistanceSensor.hpp
+[28.778s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Emitter.hpp
+[28.787s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2GPS.hpp
+[28.797s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2LED.hpp
+[28.806s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Lidar.hpp
+[28.815s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2LightSensor.hpp
+[28.824s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Pen.hpp
+[28.834s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2RangeFinder.hpp
+[28.844s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Receiver.hpp
+[28.854s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2VacuumGripper.hpp
+[28.863s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/utils/Math.hpp
+[28.873s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/utils/Utils.hpp
+[28.883s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/driver
+[28.894s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib/libwebots_ros2_driver_imu.so
+[28.905s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib/libwebots_ros2_driver_rgbd.so
+[28.920s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/accelerometer.h
+[28.936s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/altimeter.h
+[28.949s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/brake.h
+[28.964s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/camera.h
+[28.977s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/camera_recognition_object.h
+[28.990s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/compass.h
+[29.005s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/connector.h
+[29.018s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/console.h
+[29.031s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/contact_point.h
+[29.042s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/device.h
+[29.053s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/display.h
+[29.065s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/distance_sensor.h
+[29.076s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/emitter.h
+[29.087s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/gps.h
+[29.098s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/gyro.h
+[29.109s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/inertial_unit.h
+[29.121s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/joystick.h
+[29.131s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/keyboard.h
+[29.141s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/led.h
+[29.150s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/lidar.h
+[29.161s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/lidar_point.h
+[29.171s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/light_sensor.h
+[29.181s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/microphone.h
+[29.190s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/motor.h
+[29.200s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/mouse.h
+[29.212s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/mouse_state.h
+[29.222s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/nodes.h
+[29.232s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/pen.h
+[29.241s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/default.h
+[29.252s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/generic_robot_window/generic.h
+[29.262s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/robot_window.h
+[29.272s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/robot_wwi.h
+[29.283s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/position_sensor.h
+[29.294s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/radar.h
+[29.306s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/radar_target.h
+[29.316s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/radio.h
+[29.326s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/range_finder.h
+[29.337s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/receiver.h
+[29.347s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/remote_control.h
+[29.359s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/robot.h
+[29.369s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/skin.h
+[29.378s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/speaker.h
+[29.388s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/supervisor.h
+[29.398s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/touch_sensor.h
+[29.408s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/types.h
+[29.418s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/utils/ansi_codes.h
+[29.428s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/utils/motion.h
+[29.437s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/utils/string.h
+[29.448s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/utils/system.h
+[29.459s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/vacuum_gripper.h
+[29.469s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/vehicle/car.h
+[29.479s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/c/webots/vehicle/driver.h
+[29.488s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Accelerometer.hpp
+[29.498s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Altimeter.hpp
+[29.509s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Brake.hpp
+[29.519s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Camera.hpp
+[29.529s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Compass.hpp
+[29.539s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Connector.hpp
+[29.548s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Device.hpp
+[29.558s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Display.hpp
+[29.568s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/DistanceSensor.hpp
+[29.577s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Emitter.hpp
+[29.586s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Field.hpp
+[29.595s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/GPS.hpp
+[29.606s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Gyro.hpp
+[29.616s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/ImageRef.hpp
+[29.627s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/InertialUnit.hpp
+[29.636s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Joystick.hpp
+[29.646s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Keyboard.hpp
+[29.656s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/LED.hpp
+[29.666s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Lidar.hpp
+[29.674s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/LightSensor.hpp
+[29.684s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Motor.hpp
+[29.695s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Mouse.hpp
+[29.705s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Node.hpp
+[29.716s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Pen.hpp
+[29.725s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/PositionSensor.hpp
+[29.734s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Proto.hpp
+[29.744s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Radar.hpp
+[29.754s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/RangeFinder.hpp
+[29.764s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Receiver.hpp
+[29.773s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Robot.hpp
+[29.782s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Skin.hpp
+[29.791s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Speaker.hpp
+[29.801s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Supervisor.hpp
+[29.812s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/TouchSensor.hpp
+[29.821s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/VacuumGripper.hpp
+[29.830s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/utils/AnsiCodes.hpp
+[29.839s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/utils/Motion.hpp
+[29.848s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/vehicle/Car.hpp
+[29.858s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/vehicle/Driver.hpp
+[29.870s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib/controller/libController.so
+[29.879s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib/controller/libCppCar.so
+[29.887s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib/controller/libCppController.so
+[29.899s] -- Up-to-date symlink: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib/controller/libCppController.so
+[29.899s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib/controller/libCppDriver.so
+[29.909s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib/controller/libcar.so
+[29.919s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib/controller/libdriver.so
+[29.927s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib/controller/libgeneric_robot_window.so
+[29.938s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib/controller/python/vehicle/car.py
+[29.947s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib/controller/python/vehicle/driver.py
+[29.956s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver//webots_ros2_imu.xml
+[29.965s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver//webots_ros2_rgbd.xml
+[29.974s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/ros2_supervisor.py
+[29.985s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/scripts/webots_tcp_client.py
+[29.994s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/scripts/webots-controller
+[30.004s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/library_path.sh
+[30.014s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/library_path.dsv
+[30.023s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/ament_index/resource_index/package_run_dependencies/webots_ros2_driver
+[30.035s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/ament_index/resource_index/parent_prefix_path/webots_ros2_driver
+[30.044s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/ament_prefix_path.sh
+[30.053s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/ament_prefix_path.dsv
+[30.063s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/path.sh
+[30.072s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/path.dsv
+[30.083s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.bash
+[30.092s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.sh
+[30.102s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.zsh
+[30.113s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.dsv
+[30.124s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/package.dsv
+[30.135s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/ament_index/resource_index/packages/webots_ros2_driver
+[30.145s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/ament_index/resource_index/webots_ros2_driver__pluginlib__plugin/webots_ros2_driver
+[30.155s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.164s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.174s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[30.184s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/webots_ros2_driverConfig.cmake
+[30.195s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/webots_ros2_driverConfig-version.cmake
+[30.205s] -- Symlinking: /home/flynn/webots_ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/package.xml
+[30.286s] Listing '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller'...
+[30.286s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/__init__.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/accelerometer.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/altimeter.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/ansi_codes.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/brake.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/camera.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/compass.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/connector.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/constants.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/device.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/display.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/distance_sensor.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/emitter.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/field.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/gps.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/gyro.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/inertial_unit.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/joystick.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/keyboard.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/led.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/lidar.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/lidar_point.py'...
+[30.287s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/light_sensor.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/motion.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/motor.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/mouse.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/node.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/pen.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/position_sensor.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/proto.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/radar.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/radar_target.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/range_finder.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/receiver.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/robot.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/sensor.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/skin.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/speaker.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/supervisor.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/touch_sensor.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/vacuum_gripper.py'...
+[30.288s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/wb.py'...
+[30.338s] Listing '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle'...
+[30.338s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle/__init__.py'...
+[30.338s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle/car.py'...
+[30.338s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle/driver.py'...
+[30.403s] Listing '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver'...
+[30.403s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/__init__.py'...
+[30.403s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/ros2_supervisor.py'...
+[30.403s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/urdf_spawner.py'...
+[30.403s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/utils.py'...
+[30.403s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/wait_for_controller_connection.py'...
+[30.403s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/webots_controller.py'...
+[30.403s] Compiling '/home/flynn/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/webots_launcher.py'...
+[30.412s] Invoked command in '/home/flynn/webots_ros2_ws/build/webots_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/home/flynn/webots_ros2_ws/install/webots_ros2_msgs:/home/flynn/webots_ros2_ws/install/webots_ros2_control:/home/flynn/webots_ros2_ws/install/webots_ros2_driver:/home/flynn/webots_ros2_ws/install/webots_ros2:/home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot:/home/flynn/webots_ros2_ws/install/webots_ros2_tests:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service:/opt/ros/humble:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces LD_LIBRARY_PATH=/home/flynn/webots_ros2_ws/install/webots_ros2_msgs/lib:/home/flynn/webots_ros2_ws/install/webots_ros2_control/lib:/home/flynn/webots_ros2_ws/install/webots_ros2_driver/lib:/home/flynn/webots_ros2_ws/install/turtlebot3_camera_service_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/flynn/webots_ros2_ws/build/webots_ros2_driver

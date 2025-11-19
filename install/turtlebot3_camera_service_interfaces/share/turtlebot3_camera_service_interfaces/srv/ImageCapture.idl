@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from turtlebot3_camera_service_interfaces/srv/ImageCapture.srv
+// generated code does not contain a copyright notice
+
+
+module turtlebot3_camera_service_interfaces {
+  module srv {
+    struct ImageCapture_Request {
+      string filename;
+    };
+    struct ImageCapture_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

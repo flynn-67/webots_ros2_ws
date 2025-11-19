@@ -1,0 +1,6 @@
+{
+  "package_name": "turtlebot3_camera_service_interfaces",
+  "non_idl_tuples": [
+    "/home/flynn/webots_ros2_ws/src/turtlebot3_camera_service_interfaces:srv/ImageCapture.srv"
+  ]
+}

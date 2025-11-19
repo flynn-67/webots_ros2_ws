@@ -1,0 +1,34 @@
+[0.775s] Invoking command in '/home/flynn/webots_ros2_ws/build/webots_ros2_turtlebot': PYTHONPATH=/home/flynn/webots_ros2_ws/build/webots_ros2_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/flynn/webots_ros2_ws/build/webots_ros2_turtlebot/build --no-deps symlink_data
+[1.128s] running develop
+[1.368s] running egg_info
+[1.368s] creating webots_ros2_turtlebot.egg-info
+[1.369s] writing webots_ros2_turtlebot.egg-info/PKG-INFO
+[1.369s] writing dependency_links to webots_ros2_turtlebot.egg-info/dependency_links.txt
+[1.369s] writing entry points to webots_ros2_turtlebot.egg-info/entry_points.txt
+[1.370s] writing requirements to webots_ros2_turtlebot.egg-info/requires.txt
+[1.370s] writing top-level names to webots_ros2_turtlebot.egg-info/top_level.txt
+[1.370s] writing manifest file 'webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[1.372s] reading manifest file 'webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[1.374s] writing manifest file 'webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[1.376s] running build_ext
+[1.376s] Creating /home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots-ros2-turtlebot.egg-link (link to .)
+[1.378s] 
+[1.378s] Installed /home/flynn/webots_ros2_ws/build/webots_ros2_turtlebot
+[1.378s] running symlink_data
+[1.379s] creating /home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/share/ament_index
+[1.379s] creating /home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/share/ament_index/resource_index
+[1.379s] creating /home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/share/ament_index/resource_index/packages
+[1.379s] symbolically linking /home/flynn/webots_ros2_ws/build/webots_ros2_turtlebot/resource/webots_ros2_turtlebot -> /home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/share/ament_index/resource_index/packages
+[1.379s] creating /home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/launch
+[1.379s] symbolically linking /home/flynn/webots_ros2_ws/build/webots_ros2_turtlebot/launch/robot_launch.py -> /home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/launch
+[1.379s] creating /home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[1.380s] symbolically linking /home/flynn/webots_ros2_ws/build/webots_ros2_turtlebot/resource/turtlebot3_burger_example_map.pgm -> /home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[1.380s] symbolically linking /home/flynn/webots_ros2_ws/build/webots_ros2_turtlebot/resource/turtlebot3_burger_example_map.yaml -> /home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[1.380s] symbolically linking /home/flynn/webots_ros2_ws/build/webots_ros2_turtlebot/resource/turtlebot_webots.urdf -> /home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[1.380s] symbolically linking /home/flynn/webots_ros2_ws/build/webots_ros2_turtlebot/resource/ros2control.yml -> /home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[1.380s] symbolically linking /home/flynn/webots_ros2_ws/build/webots_ros2_turtlebot/resource/nav2_params.yaml -> /home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[1.380s] creating /home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds
+[1.380s] symbolically linking /home/flynn/webots_ros2_ws/build/webots_ros2_turtlebot/worlds/turtlebot3_burger_example.wbt -> /home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds
+[1.380s] symbolically linking /home/flynn/webots_ros2_ws/build/webots_ros2_turtlebot/worlds/.turtlebot3_burger_example.wbproj -> /home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds
+[1.381s] symbolically linking /home/flynn/webots_ros2_ws/build/webots_ros2_turtlebot/package.xml -> /home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot
+[1.413s] Invoked command in '/home/flynn/webots_ros2_ws/build/webots_ros2_turtlebot' returned '0': PYTHONPATH=/home/flynn/webots_ros2_ws/build/webots_ros2_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flynn/webots_ros2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/flynn/webots_ros2_ws/build/webots_ros2_turtlebot/build --no-deps symlink_data

@@ -1,0 +1,4 @@
+srv/ImageCapture.idl
+srv/ImageCapture.srv
+srv/ImageCapture_Request.msg
+srv/ImageCapture_Response.msg

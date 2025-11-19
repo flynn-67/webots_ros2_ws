@@ -1,0 +1,66 @@
+Traceback (most recent call last):
+  File "/home/flynn/webots_ros2_ws/build/webots_ros2_driver/ament_cmake_python/controller/setup.py", line 1, in <module>
+Traceback (most recent call last):
+  File "/home/flynn/webots_ros2_ws/build/webots_ros2_driver/ament_cmake_python/vehicle/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 18, in <module>
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 18, in <module>
+Traceback (most recent call last):
+  File "/home/flynn/webots_ros2_ws/build/webots_ros2_driver/ament_cmake_python/webots_ros2_driver/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 18, in <module>
+gmake[2]: *** [CMakeFiles/compile-lib-controller.dir/build.make:70: CMakeFiles/compile-lib-controller] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/compile-lib-controller.dir/all] Interrupt
+    from setuptools.dist import Distribution
+  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 37, in <module>
+    from setuptools.dist import Distribution
+    from setuptools.dist import Distribution
+  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 39, in <module>
+  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 29, in <module>
+    from setuptools import windows_support
+  File "/usr/lib/python3/dist-packages/setuptools/windows_support.py", line 2, in <module>
+    from setuptools.config import parse_configuration
+  File "/usr/lib/python3/dist-packages/setuptools/config.py", line 17, in <module>
+    from setuptools.extern import packaging
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+    import ctypes
+  File "/usr/lib/python3.10/ctypes/__init__.py", line 8, in <module>
+  File "<frozen importlib._bootstrap>", line 1002, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 945, in _find_spec
+    from setuptools.extern.packaging.specifiers import SpecifierSet
+  File "/usr/lib/python3/dist-packages/setuptools/_vendor/packaging/specifiers.py", line 24, in <module>
+  File "/usr/lib/python3/dist-packages/pkg_resources/extern/__init__.py", line 57, in find_spec
+    from _ctypes import Union, Structure, Array
+KeyboardInterrupt
+    from .utils import canonicalize_version
+  File "/usr/lib/python3/dist-packages/setuptools/_vendor/packaging/utils.py", line 8, in <module>
+    def find_spec(self, fullname, path=None, target=None):
+KeyboardInterrupt
+    from .tags import Tag, parse_tag
+  File "/usr/lib/python3/dist-packages/setuptools/_vendor/packaging/tags.py", line 23, in <module>
+    from . import _manylinux, _musllinux
+  File "/usr/lib/python3/dist-packages/setuptools/_vendor/packaging/_musllinux.py", line 76, in <module>
+    def _parse_musl_version(output: str) -> Optional[_MuslVersion]:
+  File "/usr/lib/python3.10/typing.py", line 309, in inner
+    return cached(*args, **kwds)
+  File "/usr/lib/python3.10/typing.py", line 403, in __getitem__
+    return self._getitem(self, parameters)
+  File "/usr/lib/python3.10/typing.py", line 530, in Optional
+    return Union[arg, type(None)]
+  File "/usr/lib/python3.10/typing.py", line 309, in inner
+    return cached(*args, **kwds)
+  File "/usr/lib/python3.10/typing.py", line 403, in __getitem__
+    return self._getitem(self, parameters)
+  File "/usr/lib/python3.10/typing.py", line 516, in Union
+    parameters = _remove_dups_flatten(parameters)
+  File "/usr/lib/python3.10/typing.py", line 274, in _remove_dups_flatten
+    if isinstance(p, (_UnionGenericAlias, types.UnionType)):
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_controller_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_controller_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:260: CMakeFiles/ament_cmake_python_build_controller_egg.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_webots_ros2_driver_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_webots_ros2_driver_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:364: CMakeFiles/ament_cmake_python_build_webots_ros2_driver_egg.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_vehicle_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_vehicle_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:312: CMakeFiles/ament_cmake_python_build_vehicle_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,3 @@
+[console_scripts]
+image_service_server = turtlebot3_camera_service.image_service_server:main
+

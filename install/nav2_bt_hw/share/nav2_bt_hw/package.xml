@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>nav2_bt_hw</name>
+  <version>0.0.0</version>
+  <description>Homework BT sequence node for Nav2 + image capture.</description>
+
+  <maintainer email="youdongoh67@gmail.com">flynn</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>turtlebot3_camera_service_interfaces</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

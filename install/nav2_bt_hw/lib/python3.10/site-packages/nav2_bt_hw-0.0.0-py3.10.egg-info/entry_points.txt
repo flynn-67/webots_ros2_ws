@@ -1,0 +1,3 @@
+[console_scripts]
+bt_sequence_node = nav2_bt_hw.bt_sequence_node:main
+
